@@ -218,7 +218,7 @@ void testPathological() {
 		// These tests should check different corner cases that can occur
 		// Test case 1: Single row with two columns
 		 // Test case 1: Single row with data containing special characters
-	/*    String[] expectedRow1 = {"name", "age"};
+	   String[] expectedRow1 = {"name", "age"};
 	    try {
 	        String[] actualRow1 = csvReader.readRow();
 	        assertArrayEquals(expectedRow1, actualRow1);
@@ -270,7 +270,7 @@ void testPathological() {
 	        assertArrayEquals(expectedRow5, actualRow5);
 	    } catch (IOException | CSVFormatException e) {
 	        fail("Exception occurred: " + e.getMessage());
-	    }*/
+	    }
 	}
 	
 
